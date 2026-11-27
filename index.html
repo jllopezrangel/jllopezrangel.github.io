@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="José Luis López Rangel, investigador independiente en matemáticas y física teórica.">
+  <meta name="color-scheme" content="light">
+  <title>José Luis López Rangel | Matemáticas y física teórica</title>
+  <style>
+    :root { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #152c37; background: #f5f8f8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; line-height: 1.6; }
+    a { color: #075c70; text-underline-offset: .2em; }
+    a:hover { color: #073e4a; }
+    .wrap { width: min(100% - 2.5rem, 1020px); margin-inline: auto; }
+    header { border-bottom: 1px solid #d2e0e1; background: #fff; }
+    .topbar { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; }
+    .brand { font-size: 1rem; font-weight: 750; letter-spacing: .02em; text-decoration: none; color: #152c37; }
+    nav { display: flex; flex-wrap: wrap; gap: 1.2rem; }
+    nav a { font-size: .95rem; text-decoration: none; }
+    main { padding-bottom: 5rem; }
+    .hero { padding-block: clamp(4.5rem, 9vw, 8rem); border-bottom: 1px solid #d2e0e1; }
+    .eyebrow { margin: 0 0 1.25rem; color: #075c70; font-size: .88rem; font-weight: 750; text-transform: uppercase; letter-spacing: .13em; }
+    h1 { margin: 0; max-width: 780px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.7rem, 7vw, 5.5rem); font-weight: 500; letter-spacing: -.055em; line-height: 1.08; }
+    .lead { max-width: 680px; margin: 1.8rem 0 0; font-size: clamp(1.1rem, 2.4vw, 1.35rem); color: #3b5660; }
+    section { padding-block: 4rem; border-bottom: 1px solid #d2e0e1; }
+    section:last-of-type { border: 0; }
+    h2 { margin: 0 0 1.4rem; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.9rem, 4vw, 2.6rem); font-weight: 500; line-height: 1.2; }
+    h3 { margin: 0 0 .6rem; font-size: 1.1rem; }
+    p { margin: 0 0 1rem; }
+    .intro { max-width: 700px; color: #3b5660; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1.8rem; }
+    .card { padding: 1.55rem; border: 1px solid #d2e0e1; border-radius: .8rem; background: #fff; }
+    .card p { color: #3b5660; margin-bottom: 0; }
+    .tag { display: inline-block; margin-bottom: .9rem; font-size: .83rem; font-weight: 700; color: #075c70; }
+    .links { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.5rem; }
+    .link-note { border: 1px solid #b8d1d4; border-radius: 999px; padding: .5rem .9rem; font-size: .95rem; background: #fff; }
+    footer { padding-block: 2rem; color: #526a72; font-size: .9rem; border-top: 1px solid #d2e0e1; background: #fff; }
+    @media (max-width: 680px) { .topbar { align-items: flex-start; flex-direction: column; padding-block: 1rem; gap: .5rem; } .grid { grid-template-columns: 1fr; } section { padding-block: 3rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap topbar">
+      <a class="brand" href="#inicio">José Luis López Rangel</a>
+      <nav aria-label="Secciones">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#areas">Áreas</a>
+        <a href="#trabajos">Trabajos</a>
+        <a href="#perfiles">Perfiles</a>
+      </nav>
+    </div>
+  </header>
+  <main id="inicio">
+    <div class="wrap hero">
+      <p class="eyebrow">Investigador independiente · Matemáticas · Física teórica</p>
+      <h1>José Luis López Rangel</h1>
+      <p class="lead">Este espacio reúne mi trabajo en matemáticas y física teórica. Compartiré preguntas, métodos y resultados con referencias y material reproducible cuando estén listos.</p>
+    </div>
+    <section id="sobre-mi" class="wrap">
+      <h2>Sobre mí</h2>
+      <p class="intro">Soy investigador independiente. Me interesa formular problemas con precisión, hacer explícitos los supuestos y contrastar cada resultado con el trabajo previo. Esta página servirá como punto de acceso a mis proyectos y escritos.</p>
+    </section>
+    <section id="areas" class="wrap">
+      <h2>Áreas de interés</h2>
+      <div class="grid">
+        <article class="card"><span class="tag">Matemáticas</span><h3>Problemas y demostraciones</h3><p>Enunciados precisos, antecedentes y pasos de verificación.</p></article>
+        <article class="card"><span class="tag">Física teórica</span><h3>Modelos y cálculos</h3><p>Hipótesis explícitas, desarrollo matemático y límites de cada modelo.</p></article>
+      </div>
+    </section>
+    <section id="trabajos" class="wrap">
+      <h2>Trabajos</h2>
+      <p class="intro">Los proyectos y escritos aparecerán aquí con su título, estado, versión y enlace al material correspondiente. Esta sección se actualizará a medida que los trabajos estén preparados para compartirse.</p>
+    </section>
+    <section id="perfiles" class="wrap">
+      <h2>Perfiles</h2>
+      <p class="intro">Identificadores y repositorios asociados a mi trabajo.</p>
+      <div class="links" aria-label="Perfiles"><a class="link-note" href="https://orcid.org/0009-0007-8566-4218" rel="me">ORCID</a><a class="link-note" href="https://github.com/jllopezrangel" rel="me">GitHub</a></div>
+    </section>
+  </main>
+  <footer><div class="wrap">José Luis López Rangel · Matemáticas y física teórica</div></footer>
+</body>
+</html>
